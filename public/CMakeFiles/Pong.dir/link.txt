@@ -1,0 +1,1 @@
+/home/henry/emsdk/upstream/emscripten/em++ -s USE_GLFW=3 -DCMAKE_EXE_LINKER_FLAGS=-s -sMAX_WEBGL_VERSION=2 --preload-file ../assets @CMakeFiles/Pong.dir/objects1 -o Pong.html @CMakeFiles/Pong.dir/linkLibs.rsp

@@ -1,0 +1,10 @@
+/home/henry/Downloads/clion-2022.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/henry/Downloads/clion-2022.3/bin/ninja/linux/ninja -DCMAKE_CXX_COMPILER=clang++ -G Ninja -S /home/henry/CLionProjects/HaGameLiteTemplate -B /home/henry/CLionProjects/HaGameLiteTemplate/cmake-build-debug
+/home/henry/CLionProjects/HaGameLiteTemplate
+FINDING HAGAME2 LIB
+UNIX
+FIND_HAGAME2_PATHS = /home/henry/CLionProjects/HaGame2
+HAGAME2_INCLUDE_DIR = /home/henry/CLionProjects/HaGame2/include
+HAGAME2_LIBRARY = /home/henry/CLionProjects/HaGame2/lib/libHaGame2.a
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/henry/CLionProjects/HaGameLiteTemplate/cmake-build-debug

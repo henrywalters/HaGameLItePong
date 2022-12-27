@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g CMakeFiles/Pong.dir/main.cpp.o -o Pong  /home/henry/CLionProjects/HaGame2/lib/libHaGame2.a -lglfw /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so 

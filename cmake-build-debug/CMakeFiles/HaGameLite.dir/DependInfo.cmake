@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/henry/CLionProjects/HaGameLItePong/main.cpp" "CMakeFiles/Pong.dir/main.cpp.o" "gcc" "CMakeFiles/Pong.dir/main.cpp.o.d"
+  "/home/henry/CLionProjects/HaGameLItePong/main.cpp" "CMakeFiles/HaGameLite.dir/main.cpp.o" "gcc" "CMakeFiles/HaGameLite.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

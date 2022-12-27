@@ -40,8 +40,8 @@ var Module = typeof Module != 'undefined' ? Module : {};
         // web worker
         PACKAGE_PATH = encodeURIComponent(location.pathname.toString().substring(0, location.pathname.toString().lastIndexOf('/')) + '/');
       }
-      var PACKAGE_NAME = 'HaGameLite.data';
-      var REMOTE_PACKAGE_BASE = 'HaGameLite.data';
+      var PACKAGE_NAME = 'Pong.data';
+      var REMOTE_PACKAGE_BASE = 'Pong.data';
       if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
         Module['locateFile'] = Module['locateFilePackage'];
         err('warning: you defined Module.locateFilePackage, that has been renamed to Module.locateFile (using your locateFilePackage for now)');
@@ -173,10 +173,10 @@ Module['FS_createPath']("/assets", "shaders", true, true);
           var files = metadata['files'];
           for (var i = 0; i < files.length; ++i) {
             DataRequest.prototype.requests[files[i].filename].onload();
-          }          Module['removeRunDependency']('datafile_HaGameLite.data');
+          }          Module['removeRunDependency']('datafile_Pong.data');
 
       };
-      Module['addRunDependency']('datafile_HaGameLite.data');
+      Module['addRunDependency']('datafile_Pong.data');
 
       if (!Module.preloadResults) Module.preloadResults = {};
 
@@ -1216,7 +1216,7 @@ function createExportWrapper(name, fixedasm) {
 }
 
 var wasmBinaryFile;
-  wasmBinaryFile = 'HaGameLite.wasm';
+  wasmBinaryFile = 'Pong.wasm';
   if (!isDataURI(wasmBinaryFile)) {
     wasmBinaryFile = locateFile(wasmBinaryFile);
   }
